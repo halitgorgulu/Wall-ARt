@@ -18,7 +18,9 @@ const Home = () => {
                           style={{ width: "266px", overflow: "hidden" }}
                         >
                           <b className="is-hidden">Wall-ARt</b>
-                          <b className="is-hidden">Art meets Augmented Reality</b>
+                          <b className="is-hidden">
+                            Art meets Augmented Reality
+                          </b>
                           <b className="is-visible">Explore the World</b>
                         </span>
                       </h1>
@@ -45,12 +47,16 @@ const Home = () => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        Wall-ARt is an Android-based mobile application that allows artists to
-                        showcase their art in Augmented Reality. Wall-ARt allows artists to upload their artworks
-                        for regular users to view on the streets, using Augmented Reality technology. Our application
-                        was designed with the idea of discovering the works of artists in a local area. This means that
-                        users can view only the artworks that are in their vicinity. We believe that this adds value to
-                        artists, and promotes exploration of surroundings in a new way.
+                        Wall-ARt is an Android-based mobile application that
+                        allows artists to showcase their art in Augmented
+                        Reality. Wall-ARt allows artists to upload their
+                        artworks for regular users to view on the streets, using
+                        Augmented Reality technology. Our application was
+                        designed with the idea of discovering the works of
+                        artists in a local area. This means that users can view
+                        only the artworks that are in their vicinity. We believe
+                        that this adds value to artists, and promotes
+                        exploration of surroundings in a new way.
                       </p>
                     </div>
                   </div>
@@ -126,21 +132,22 @@ const Home = () => {
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        We are 5 Computer Engineering students who teamed up, with the 
-                        aim of creating a platform for artists and art lovers in our sights. 
-                        We started our journey with the idea of street artists expressing their art freely.
-                        This idea grew on us quickly, and we decided to provide an application that would
-                        make the world around people more colourful.{" "}
+                        We are 5 Computer Engineering students who teamed up,
+                        with the aim of creating a platform for artists and art
+                        lovers in our sights. We started our journey with the
+                        idea of street artists expressing their art freely. This
+                        idea grew on us quickly, and we decided to provide an
+                        application that would make the world around people more
+                        colourful.{" "}
                         <a className="underline2" href="#contact">
                           {" "}
                           Link example.
                         </a>{" "}
                         <br></br>
                         <br></br>
-                        We worked on our application with passion, and we are proud of the result.
-                        We hope you will enjoy it as much as we do.
-                        
-                      
+                        We worked on our application with passion, and we are
+                        proud of the result. We hope you will enjoy it as much
+                        as we do.
                       </p>
                     </div>
                   </div>
@@ -161,13 +168,10 @@ const Home = () => {
                     <h3>Wall-ARt Poster</h3>
                     <div className="underline1"></div>
                     <div className="underline2"></div>
-                    <p>
-                      Here be the poster.
-                    </p>
+                    <p>Here be the poster.</p>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -184,7 +188,15 @@ const Home = () => {
                       <h3>Preview</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-<iframe width="892" height="502" src="https://www.youtube.com/embed/VQH8ZTgna3Q" title="Arctic Monkeys - R U Mine? (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      <iframe
+                        width="892"
+                        height="502"
+                        src="https://www.youtube.com/embed/VQH8ZTgna3Q"
+                        title="Arctic Monkeys - R U Mine? (Official Video)"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
                     </div>
                   </div>
                 </div>
@@ -290,7 +302,9 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg" width="auto" height="160px"
+                          src="https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg"
+                          width="auto"
+                          height="160px"
                           alt="design-development"
                         />
                       </div>
@@ -309,7 +323,9 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="https://cdn.worldvectorlogo.com/logos/google-arcore.svg" width={320} height={160}
+                          src="https://cdn.worldvectorlogo.com/logos/google-arcore.svg"
+                          width={320}
+                          height={160}
                           alt="e-commarce"
                         />
                       </div>
@@ -328,7 +344,9 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/1024px-Google_Maps_Logo_2020.svg.png?20200329030310" width="auto" height="160px"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/1024px-Google_Maps_Logo_2020.svg.png?20200329030310"
+                          width="auto"
+                          height="160px"
                           alt="analytics"
                         />
                       </div>
@@ -363,7 +381,8 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          We're always open to suggestions and improvements on our product.
+                          We're always open to suggestions and improvements on
+                          our product.
                         </p>
                       </div>
                     </div>
@@ -375,131 +394,151 @@ const Home = () => {
               <div className="contact-form-details wow fadeIn">
                 <div className="container">
                   <div className="row contact-info-row text-center wow fadeIn">
-                  <div className="col-md-2 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".3s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                        <h3>Halit Oğuztüzün</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <img src="/assets/img/halitoguztuzun.jpeg" width="70" height="auto"></img>
-                        <p>
-                          <a
-                            href="https://www.linkedin.com/in/halitoguztuzun/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Group Advisor
-                          </a>
-                        </p>
+                    <div className="col-md-2 col-sm-4">
+                      <div className="resume-details" data-wow-delay=".3s">
+                        <div className="resume-hover"></div>
+                        <div className="resume-main">
+                          <i className="fa fa-linkedin" aria-hidden="true"></i>
+                          <h3>Halit Oğuztüzün</h3>
+                          <div className="underline1"></div>
+                          <div className="underline2"></div>
+                          <img
+                            src="/assets/img/halitoguztuzun.jpeg"
+                            width="70"
+                            height="auto"
+                          ></img>
+                          <p>
+                            <a
+                              href="https://www.linkedin.com/in/halitoguztuzun/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Group Advisor
+                            </a>
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-2 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".3s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                        <h3>Halit Erkan Görgülü</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <img src="/assets/img/halitgorglu.jpeg" width="70" height="auto"></img>
-                        <p>
-                          <a
-                            href="https://www.linkedin.com/in/halit-erkan-gorgulu-0a612b1ba/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Group Member
-                          </a>
-                        </p>
+                    <div className="col-md-2 col-sm-4">
+                      <div className="resume-details" data-wow-delay=".3s">
+                        <div className="resume-hover"></div>
+                        <div className="resume-main">
+                          <i className="fa fa-linkedin" aria-hidden="true"></i>
+                          <h3>Halit Erkan Görgülü</h3>
+                          <div className="underline1"></div>
+                          <div className="underline2"></div>
+                          <img
+                            src="/assets/img/halitgorglu.jpeg"
+                            width="70"
+                            height="auto"
+                          ></img>
+                          <p>
+                            <a
+                              href="https://www.linkedin.com/in/halit-erkan-gorgulu-0a612b1ba/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Group Member
+                            </a>
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-2 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".3s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                        <h3>Yılmaz Nergiz</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          <a
-                            href="https://www.linkedin.com/in/yilmaz-nergiz/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Group Member
-                          </a>
-                        </p>
+                    <div className="col-md-2 col-sm-4">
+                      <div className="resume-details" data-wow-delay=".3s">
+                        <div className="resume-hover"></div>
+                        <div className="resume-main">
+                          <i className="fa fa-linkedin" aria-hidden="true"></i>
+                          <h3>Yılmaz Nergiz</h3>
+                          <div className="underline1"></div>
+                          <div className="underline2"></div>
+                          <p>
+                            <a
+                              href="https://www.linkedin.com/in/yilmaz-nergiz/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Group Member
+                            </a>
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-2 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".3s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                        <h3>Alper Gülşen</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <img src="/assets/img/alpergulsen.jpeg" width="70" height="auto"></img>
-                        <p>
-                          <a
-                            href="https://www.linkedin.com/in/alpergulsen/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Group Member
-                          </a>
-                        </p>
+                    <div className="col-md-2 col-sm-4">
+                      <div className="resume-details" data-wow-delay=".3s">
+                        <div className="resume-hover"></div>
+                        <div className="resume-main">
+                          <i className="fa fa-linkedin" aria-hidden="true"></i>
+                          <h3>Alper Gülşen</h3>
+                          <div className="underline1"></div>
+                          <div className="underline2"></div>
+                          <img
+                            src="/assets/img/alpergulsen.jpeg"
+                            width="70"
+                            height="auto"
+                          ></img>
+                          <p>
+                            <a
+                              href="https://www.linkedin.com/in/alpergulsen/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Group Member
+                            </a>
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-2 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".3s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                        <h3>Mustafa Akyazıcı</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <img src="/assets/img/mustafaakyazici.jpeg" width="70" height="auto"></img>
-                        <p>
-                          <a
-                            href="https://www.linkedin.com/in/mustafacanakyaz%C4%B1c%C4%B1/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Group Member
-                          </a>
-                        </p>
+                    <div className="col-md-2 col-sm-4">
+                      <div className="resume-details" data-wow-delay=".3s">
+                        <div className="resume-hover"></div>
+                        <div className="resume-main">
+                          <i className="fa fa-linkedin" aria-hidden="true"></i>
+                          <h3>Mustafa Akyazıcı</h3>
+                          <div className="underline1"></div>
+                          <div className="underline2"></div>
+                          <img
+                            src="/assets/img/mustafaakyazici.jpeg"
+                            width="70"
+                            height="auto"
+                          ></img>
+                          <p>
+                            <a
+                              href="https://www.linkedin.com/in/mustafacanakyaz%C4%B1c%C4%B1/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Group Member
+                            </a>
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-2 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".3s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                        <h3>Mehmet Tekin</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <img src="/assets/img/mehmettekin.jpeg" width="70" height="auto"></img>
-                        <p>
-                          <a
-                            href="https://www.linkedin.com/in/mehmet-tekin-7137101a0/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Group Member
-                          </a>
-                        </p>
+                    <div className="col-md-2 col-sm-4">
+                      <div className="resume-details" data-wow-delay=".3s">
+                        <div className="resume-hover"></div>
+                        <div className="resume-main">
+                          <i className="fa fa-linkedin" aria-hidden="true"></i>
+                          <h3>Mehmet Tekin</h3>
+                          <div className="underline1"></div>
+                          <div className="underline2"></div>
+                          <img
+                            src="/assets/img/mehmettekin.jpeg"
+                            width="70"
+                            height="auto"
+                          ></img>
+                          <p>
+                            <a
+                              href="https://www.linkedin.com/in/mehmet-tekin-7137101a0/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Group Member
+                            </a>
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </div>
                 </div>
               </div>
