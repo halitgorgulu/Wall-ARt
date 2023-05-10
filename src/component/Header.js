@@ -11,7 +11,7 @@ function Header() {
                 <div className="col-md-3 col-sm-3">
                   <div className="site-title">
                     <a href="/#home" style={{ textDecoration: "none" }}>
-                      <h3>Wall-ARt</h3>
+                      <img src="/assets/img/logo_new.png" width="auto" height="75"></img>
                     </a>
                   </div>
                 </div>
