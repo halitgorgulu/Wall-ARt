@@ -474,136 +474,126 @@ const Home = () => {
               <div className="contact-form-details wow fadeIn">
                 <div className="container">
                   <div className="row contact-info-row text-center wow fadeIn">
-                  <div className="col-md-5ths col-xs-6">
+                  <div className="col-md-2 col-sm-4">
                     <div className="resume-details" data-wow-delay=".3s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
-                        <i
-                          className="fa fa-graduation-cap resume-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Graduation</h3>
-                        <h2>2017-2020</h2>
+                      <i className="fa fa-linkedin" aria-hidden="true"></i>
+                        <h3>Halit Oğuztüzün</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
+                        <img src="/assets/img/halitoguztuzun.jpeg" width="70" height="auto"></img>
                         <p>
                           <a
-                            href="https://www.cclms.org/"
+                            href="https://www.linkedin.com/in/halitoguztuzun/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            CCLMS (Contai College of Learning and Management
-                            Science)
+                            Group Advisor
                           </a>
-                          , Contai, West Bengal, India.
                         </p>
                       </div>
                     </div>
                   </div>
-                    <div className="col-md-5ths col-xs-6">
+                  <div className="col-md-2 col-sm-4">
                     <div className="resume-details" data-wow-delay=".3s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
-                        <i
-                          className="fa fa-graduation-cap resume-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Graduation</h3>
-                        <h2>2017-2020</h2>
+                      <i className="fa fa-linkedin" aria-hidden="true"></i>
+                        <h3>Halit Erkan Görgülü</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
+                        <img src="/assets/img/halitgorglu.jpeg" width="70" height="auto"></img>
                         <p>
-                          Achieved my Graduation Degree from{" "}
                           <a
-                            href="https://www.cclms.org/"
+                            href="https://www.linkedin.com/in/halit-erkan-gorgulu-0a612b1ba/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            CCLMS (Contai College of Learning and Management
-                            Science)
+                            Group Member
                           </a>
-                          , Contai, West Bengal, India.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-5ths col-xs-6">
+                  <div className="col-md-2 col-sm-4">
                     <div className="resume-details" data-wow-delay=".3s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
-                        <i
-                          className="fa fa-graduation-cap resume-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Graduation</h3>
-                        <h2>2017-2020</h2>
+                      <i className="fa fa-linkedin" aria-hidden="true"></i>
+                        <h3>Yılmaz Nergiz</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Achieved my Graduation Degree from{" "}
                           <a
-                            href="https://www.cclms.org/"
+                            href="https://www.linkedin.com/in/yilmaz-nergiz/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            CCLMS (Contai College of Learning and Management
-                            Science)
+                            Group Member
                           </a>
-                          , Contai, West Bengal, India.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-5ths col-xs-6">
+                  <div className="col-md-2 col-sm-4">
                     <div className="resume-details" data-wow-delay=".3s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
-                        <i
-                          className="fa fa-graduation-cap resume-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Graduation</h3>
-                        <h2>2017-2020</h2>
+                      <i className="fa fa-linkedin" aria-hidden="true"></i>
+                        <h3>Alper Gülşen</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
+                        <img src="/assets/img/alpergulsen.jpeg" width="70" height="auto"></img>
                         <p>
-                          Achieved my Graduation Degree from{" "}
                           <a
-                            href="https://www.cclms.org/"
+                            href="https://www.linkedin.com/in/alpergulsen/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            CCLMS (Contai College of Learning and Management
-                            Science)
+                            Group Member
                           </a>
-                          , Contai, West Bengal, India.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-5ths col-xs-6">
+                  <div className="col-md-2 col-sm-4">
                     <div className="resume-details" data-wow-delay=".3s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
-                        <i
-                          className="fa fa-graduation-cap resume-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Graduation</h3>
-                        <h2>2017-2020</h2>
+                      <i className="fa fa-linkedin" aria-hidden="true"></i>
+                        <h3>Mustafa Akyazıcı</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
+                        <img src="/assets/img/mustafaakyazici.jpeg" width="70" height="auto"></img>
                         <p>
-                          Achieved my Graduation Degree from{" "}
                           <a
-                            href="https://www.cclms.org/"
+                            href="https://www.linkedin.com/in/mustafacanakyaz%C4%B1c%C4%B1/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            CCLMS (Contai College of Learning and Management
-                            Science)
+                            Group Member
                           </a>
-                          , Contai, West Bengal, India.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-2 col-sm-4">
+                    <div className="resume-details" data-wow-delay=".3s">
+                      <div className="resume-hover"></div>
+                      <div className="resume-main">
+                      <i className="fa fa-linkedin" aria-hidden="true"></i>
+                        <h3>Halit Erkan Görgülü</h3>
+                        <div className="underline1"></div>
+                        <div className="underline2"></div>
+                        <p>
+                          <a
+                            href="https://www.linkedin.com/in/halit-erkan-gorgulu-0a612b1ba/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Group Member
+                          </a>
                         </p>
                       </div>
                     </div>

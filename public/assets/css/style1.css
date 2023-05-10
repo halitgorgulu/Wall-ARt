@@ -855,6 +855,7 @@ section:nth-of-type(2) {
   -o-transition: 0.4s;
 }
 .resume-main {
+  height: 300px;
   padding: 30px 10px;
 }
 .resume-details h3 {

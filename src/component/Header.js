@@ -53,9 +53,6 @@ function Header() {
                         <a href="/#service">Technology</a>
                       </li>
                       <li>
-                        <a href="/#blog">Technology</a>
-                      </li>
-                      <li>
                         <a href="/#contact">Contact</a>
                       </li>
                     </ul>
