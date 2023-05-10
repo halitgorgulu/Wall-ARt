@@ -62,49 +62,51 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="row love-row wow fadeIn">
-                  <div className="col-md-3 col-sm-6">
+                  <div className="col-md-4 col-sm-6">
                     <div className="love-details" data-wow-delay=".1s">
                       <i
-                        className="fa fa-pencil-square-o love-icon"
+                        class="fa fa-cloud-upload love-icon"
                         aria-hidden="true"
                       ></i>
-                      <h3>Working Hard</h3>
+                      <h3>Upload artworks to cloud</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Always believe in hard-work in my profession</p>
+                      <p>
+                        Artists can upload their artworks to our database hosted
+                        by Firebase, and associate a specific location to it. By
+                        attaching the image of a wall, they can guide users to
+                        the exact location.
+                      </p>
                     </div>
                   </div>
-                  <div className="col-md-3 col-sm-6">
+                  <div className="col-md-4 col-sm-6">
                     <div className="love-details" data-wow-delay=".3s">
-                      <i
-                        className="fa fa-file-image-o love-icon"
-                        aria-hidden="true"
-                      ></i>
-                      <h3>UI/UX Design</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                      <p>Love to do UI/UX design for new product</p>
-                    </div>
-                  </div>
-                  <div className="col-md-3 col-sm-6">
-                    <div className="love-details" data-wow-delay=".2s">
                       <i
                         className="fa fa-globe love-icon"
                         aria-hidden="true"
                       ></i>
-                      <h3>Web Design</h3>
+                      <h3>Locate nearby artworks on map</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Passionate about Web Design from start</p>
+                      <p>
+                        Regular users will be able to view the locations of
+                        nearby artworks as markers on a map. They can then
+                        navigate to the location, and locate the wall that the
+                        artist intended their artwork to be displayed on.
+                      </p>
                     </div>
                   </div>
-                  <div className="col-md-3 col-sm-6">
-                    <div className="love-details" data-wow-delay=".4s">
-                      <i className="fa fa-cog love-icon" aria-hidden="true"></i>
-                      <h3>Web Development</h3>
+                  <div className="col-md-4 col-sm-6">
+                    <div className="love-details" data-wow-delay=".2s">
+                      <i class="fa fa-camera love-icon" aria-hidden="true"></i>
+                      <h3>Switch to AR mode</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Created all types of modern web development.</p>
+                      <p>
+                        Users can switch to Augmented Reality when there is an
+                        artwork nearby. They can then view the artwork on the
+                        wall, and take pictures of it.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -118,7 +120,7 @@ const Home = () => {
                   <div className="col-md-4 col-sm-6 col-xs-12 about-col">
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpeg"
+                        src="https://venturebeat.com/wp-content/uploads/2020/01/mark.jpg?fit=400%2C239&strip=all"
                         alt="Wall-ARt"
                         className="about-img wow fadeIn"
                       />
@@ -138,12 +140,7 @@ const Home = () => {
                         idea of street artists expressing their art freely. This
                         idea grew on us quickly, and we decided to provide an
                         application that would make the world around people more
-                        colourful.{" "}
-                        <a className="underline2" href="#contact">
-                          {" "}
-                          Link example.
-                        </a>{" "}
-                        <br></br>
+                        colourful. <br></br>
                         <br></br>
                         We worked on our application with passion, and we are
                         proud of the result. We hope you will enjoy it as much
@@ -189,10 +186,10 @@ const Home = () => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <iframe
-                        width="892"
+                        width="669"
                         height="502"
-                        src="https://www.youtube.com/embed/VQH8ZTgna3Q"
-                        title="Arctic Monkeys - R U Mine? (Official Video)"
+                        src="https://www.youtube.com/embed/VwUOBsKYH0Q"
+                        title="Levent Yüksel - Tuana ( Sana Söz Yine Baharlar Gelecek)"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen
@@ -206,16 +203,17 @@ const Home = () => {
                       <div className="resume-hover"></div>
                       <div className="resume-main">
                         <i
-                          className="fa fa-home resume-icon"
+                          class="fa fa-paint-brush resume-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>School</h3>
-                        <h2>2010-2017</h2>
+
+                        <h3>The world is your canvas</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Completed my school life from Haludbari High School
-                          (H.S.), Khejuri, West Bengal, India.
+                          Artists can express their art freely on any wall,
+                          without any restrictions. There is no limit to the
+                          number of artworks that can be displayed on a wall.
                         </p>
                       </div>
                     </div>
@@ -225,24 +223,18 @@ const Home = () => {
                       <div className="resume-hover"></div>
                       <div className="resume-main">
                         <i
-                          className="fa fa-graduation-cap resume-icon"
+                          class="fa fa-street-view resume-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Graduation</h3>
-                        <h2>2017-2020</h2>
+
+                        <h3>Explore your surroundings</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Achieved my Graduation Degree from{" "}
-                          <a
-                            href="https://www.cclms.org/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            CCLMS (Contai College of Learning and Management
-                            Science)
-                          </a>
-                          , Contai, West Bengal, India.
+                          Users can see which artworks are nearby, and make
+                          their way to a desired artwork. They can walk around,
+                          and gain access to displaying artworks in Augmented
+                          Reality.
                         </p>
                       </div>
                     </div>
@@ -252,23 +244,17 @@ const Home = () => {
                       <div className="resume-hover"></div>
                       <div className="resume-main">
                         <i
-                          className="fa fa-graduation-cap resume-icon"
+                          class="fa fa-picture-o resume-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Training &amp; Skill</h3>
-                        <h2>2022-2022</h2>
+
+                        <h3>Imagine the world with AR</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Currently learning Full-Stack Web Development from{" "}
-                          <a
-                            href="https://masaischool.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Masai School
-                          </a>
-                          , Bengaluru, India.
+                          By switching to Augmented Reality view, users can see
+                          the artworks in real-life size. They can also take
+                          photos in front of artworks.
                         </p>
                       </div>
                     </div>
@@ -288,11 +274,12 @@ const Home = () => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>Technology</h3>
+                      <h3>Technologies We Use</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        I always want to make things that make a difference.
+                        We make use of a variety of technologies to provide
+                        services in our application.
                       </p>
                     </div>
                   </div>
@@ -313,8 +300,12 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Clean, modern designs - optimized for performance,
-                          search engines, and converting users to customers.
+                          Firebase is a platform developed by Google which
+                          offers various services to facilitate mobile and web
+                          application development. We use Firebase Database for
+                          storing user-specific data, Firebase Storage for
+                          storing artworks and wall images, and Firebase
+                          Authentication for user authentication.
                         </p>
                       </div>
                     </div>
@@ -334,8 +325,11 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Integration of eCommerce platforms, payment gateways,
-                          custom product templates, and more.
+                          ARCore is a Software Development Kit developed by
+                          Google which offers various tools for developing
+                          Augmented Reality applications. We primarily use
+                          ARCore for displaying artworks with Augmented Reality
+                          technology in outdoor environments.
                         </p>
                       </div>
                     </div>
@@ -355,8 +349,11 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Get insights into who is browsing your site so that
-                          you can make smarter business decisions.
+                          Google Maps is a mapping service developed by Google.
+                          We use Google Maps to integrate a virtual map in our
+                          application, for showing the locations of nearby
+                          artworks and allowing users to navigate their way to a
+                          selected artwork.
                         </p>
                       </div>
                     </div>
@@ -452,6 +449,11 @@ const Home = () => {
                           <h3>Yılmaz Nergiz</h3>
                           <div className="underline1"></div>
                           <div className="underline2"></div>
+                          <img
+                            src="/assets/img/yilmaznergiz.jpeg"
+                            width="70"
+                            height="auto"
+                          ></img>
                           <p>
                             <a
                               href="https://www.linkedin.com/in/yilmaz-nergiz/"
