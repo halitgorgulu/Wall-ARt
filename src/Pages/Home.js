@@ -18,8 +18,8 @@ const Home = () => {
                           style={{ width: "266px", overflow: "hidden" }}
                         >
                           <b className="is-hidden">Wall-ARt</b>
-                          <b className="is-hidden">Augumented Reality</b>
-                          <b className="is-visible">Artify the World</b>
+                          <b className="is-hidden">Art meets Augmented Reality</b>
+                          <b className="is-visible">Explore the World</b>
                         </span>
                       </h1>
                     </div>
@@ -45,15 +45,12 @@ const Home = () => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        At present time I'm working on a multi-role, as a Web
-                        Developer I design and create various websites. And as
-                        UI/UX Designer I create many designs for Web
-                        Applications and Mobile applications. I create the
-                        beauty of the site. I'm responsible for the site's
-                        technical aspects, such as its performance and capacity,
-                        which are measures of a website's speed and how much
-                        traffic the site can handle. In addition, I also create
-                        content for the site.
+                        Wall-ARt is an Android-based mobile application that allows artists to
+                        showcase their art in Augmented Reality. Wall-ARt allows artists to upload their artworks
+                        for regular users to view on the streets, using Augmented Reality technology. Our application
+                        was designed with the idea of discovering the works of artists in a local area. This means that
+                        users can view only the artworks that are in their vicinity. We believe that this adds value to
+                        artists, and promotes exploration of surroundings in a new way.
                       </p>
                     </div>
                   </div>
@@ -124,32 +121,26 @@ const Home = () => {
                   <div className="col-md-8 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
-                        <h3>Hello! We are Wall-ARt team</h3>
+                        <h3>Hello! We are Team Wall-ARt!</h3>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        I am a web developer from Kolkata, India. I enjoy
-                        building everything from small business sites to rich
-                        interactive web apps. if you are a business seeking a
-                        web presence or an employer looking to hire, you can get
-                        in touch with me{" "}
+                        We are 5 Computer Engineering students who teamed up, with the 
+                        aim of creating a platform for artists and art lovers in our sights. 
+                        We started our journey with the idea of street artists expressing their art freely.
+                        This idea grew on us quickly, and we decided to provide an application that would
+                        make the world around people more colourful.{" "}
                         <a className="underline2" href="#contact">
                           {" "}
-                          here.
+                          Link example.
                         </a>{" "}
-                        I design and build digital products with simple and
-                        beautiful code. I specialize in custom web theme
-                        development and love what I do.
-                        <br />
-                        <br />
-                        Since beginning my journey as a web developer in my
-                        college days, I've done remote work for agencies,
-                        consulted for startups, and collaborated with talented
-                        people to create digital products for both business and
-                        consumer use. I'm quietly confident, naturally curious,
-                        and perpetually working on improving my chops one design
-                        problem at a time.
+                        <br></br>
+                        <br></br>
+                        We worked on our application with passion, and we are proud of the result.
+                        We hope you will enjoy it as much as we do.
+                        
+                      
                       </p>
                     </div>
                   </div>
@@ -171,21 +162,12 @@ const Home = () => {
                     <div className="underline1"></div>
                     <div className="underline2"></div>
                     <p>
-                      I value simple content structure, clean design patterns,
-                      and thoughtful interactions.
+                      Here be the poster.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="row love-row wow fadeIn">
-                <div className="col-md-6">
-                  <div className="skill-details text-left">
-                    <p>
-                      poster gelecek
-                    </p>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
@@ -462,7 +444,7 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          We're always open to discussing about our project and conturbution.
+                          We're always open to suggestions and improvements on our product.
                         </p>
                       </div>
                     </div>
@@ -583,12 +565,13 @@ const Home = () => {
                       <div className="resume-hover"></div>
                       <div className="resume-main">
                       <i className="fa fa-linkedin" aria-hidden="true"></i>
-                        <h3>Halit Erkan Görgülü</h3>
+                        <h3>Mehmet Tekin</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
+                        <img src="/assets/img/mehmettekin.jpeg" width="70" height="auto"></img>
                         <p>
                           <a
-                            href="https://www.linkedin.com/in/halit-erkan-gorgulu-0a612b1ba/"
+                            href="https://www.linkedin.com/in/mehmet-tekin-7137101a0/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
