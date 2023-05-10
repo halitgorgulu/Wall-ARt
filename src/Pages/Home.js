@@ -290,16 +290,12 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/design-development.jpg"
+                          src="https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg" width="auto" height="160px"
                           alt="design-development"
                         />
                       </div>
                       <div className="service-bottom">
-                        <i
-                          className="fa fa-edit service-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Design + Development</h3>
+                        <h3>Firebase</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
@@ -313,16 +309,12 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/e-commarce.jpg"
+                          src="https://cdn.worldvectorlogo.com/logos/google-arcore.svg" width={320} height={160}
                           alt="e-commarce"
                         />
                       </div>
                       <div className="service-bottom">
-                        <i
-                          className="fa fa-cart-plus exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>eCommerce</h3>
+                        <h3>ARCore</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
@@ -336,90 +328,17 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/analytics.jpg"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/1024px-Google_Maps_Logo_2020.svg.png?20200329030310" width="auto" height="160px"
                           alt="analytics"
                         />
                       </div>
                       <div className="service-bottom">
-                        <i
-                          className="fa fa-tachometer service-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Analytics</h3>
+                        <h3>Google Maps</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
                           Get insights into who is browsing your site so that
                           you can make smarter business decisions.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
-                      <div className="service-head">
-                        <img
-                          src="assets/img/service/mobile-friendly.jpg"
-                          alt="mobile-friendly"
-                        />
-                      </div>
-                      <div className="service-bottom">
-                        <i
-                          className="fa fa-desktop exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Mobile-friendly</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          A responsive design makes your website accessible to
-                          all users, regardless of their device.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
-                      <div className="service-head">
-                        <img
-                          src="assets/img/service/website-audit.jpg"
-                          alt="website-audit"
-                        />
-                      </div>
-                      <div className="service-bottom">
-                        <i
-                          className="fa fa-search exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Website Rank</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Looking to improve your page performance, SEO, or user
-                          experience? Request a free site audit.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
-                      <div className="service-head">
-                        <img
-                          src="assets/img/service/content-management.jpg"
-                          alt="content-management"
-                        />
-                      </div>
-                      <div className="service-bottom">
-                        <i
-                          className="fa fa-file exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Content Management</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Custom theme and plugin development. Easily update
-                          site content with knowledge of powerful code.
                         </p>
                       </div>
                     </div>
